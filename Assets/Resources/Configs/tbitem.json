@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1001,
+    "name": "原木",
+    "description": "刚砍下来的木材",
+    "icon": "oak_log",
+    "maxStack": 64
+  },
+  {
+    "id": 1002,
+    "name": "木板",
+    "description": "加工后的木材",
+    "icon": "oak_planks",
+    "maxStack": 64
+  },
+  {
+    "id": 1003,
+    "name": "木棍",
+    "description": "用来制作工具的木材",
+    "icon": "stick",
+    "maxStack": 64
+  },
+  {
+    "id": 1004,
+    "name": "圆石",
+    "description": "刚采下来的石材",
+    "icon": "cobblestone",
+    "maxStack": 64
+  },
+  {
+    "id": 1005,
+    "name": "铁矿石",
+    "description": "含有铁元素的矿石",
+    "icon": "iron_ore",
+    "maxStack": 64
+  },
+  {
+    "id": 1006,
+    "name": "铁锭",
+    "description": "加工后的铁",
+    "icon": "iron_ingot",
+    "maxStack": 64
+  },
+  {
+    "id": 2001,
+    "name": "木镐",
+    "description": "木制镐子",
+    "icon": "wooden_pickaxe",
+    "maxStack": 1
+  },
+  {
+    "id": 2002,
+    "name": "铁剑",
+    "description": "铁制长剑",
+    "icon": "iron_sword",
+    "maxStack": 1
+  },
+  {
+    "id": 2003,
+    "name": "木斧",
+    "description": "木制斧头",
+    "icon": "wooden_axe",
+    "maxStack": 1
+  }
+]

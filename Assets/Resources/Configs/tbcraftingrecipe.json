@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1001,
+    "name": "木棍配方",
+    "width": 1,
+    "height": 2,
+    "ingredients": [
+      1002,
+      1002
+    ],
+    "resultItemId": 1003,
+    "resultCount": 4
+  },
+  {
+    "id": 1002,
+    "name": "木镐配方",
+    "width": 3,
+    "height": 3,
+    "ingredients": [
+      1002,
+      1002,
+      1002,
+      0,
+      1003,
+      0,
+      0,
+      1003,
+      0
+    ],
+    "resultItemId": 2001,
+    "resultCount": 1
+  },
+  {
+    "id": 1003,
+    "name": "木斧配方",
+    "width": 2,
+    "height": 3,
+    "ingredients": [
+      1002,
+      1002,
+      1002,
+      1003,
+      0,
+      1003
+    ],
+    "resultItemId": 2003,
+    "resultCount": 1
+  }
+]

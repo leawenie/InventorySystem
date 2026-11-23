@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Luban:生成配置",
+            "type": "process",
+            "command": "D:\\Tools\\Luban\\Luban\\Luban.exe",
+            "args": [
+                "--conf",
+                "${workspaceFolder}/Configs/DataTables/luban.conf",
+                "-t",
+                "client",
+                "-c",
+                "cs-simple-json",
+                "-d",
+                "json",
+                "--strict",
+                "-w",
+                "${workspaceFolder}/Configs/DataTables",
+                "-x",
+                "outputCodeDir=${workspaceFolder}/Assets/Scripts/Config/Generated",
+                "-x",
+                "outputDataDir=${workspaceFolder}/Assets/Resources/Configs"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "isBackground": true,
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true,
+            }
+        }
+    ]
+}

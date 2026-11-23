@@ -1,0 +1,56 @@
+# Unity generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Unity generated diagnostic files
+sysinfo.txt
+*.stacktrace
+/[Cc]rash[Rr]eports/
+
+# IDE local caches and generated project files
+/.vs/
+/.idea/
+/.vscode/*
+!/.vscode/extensions.json
+!/.vscode/tasks.json
+!/.vscode/launch.json
+!/.vscode/settings.json
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+
+# Local OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Excel temporary lock files (keep actual Luban .xlsx files)
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+
+# Local secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Keep Assets and their .meta files, Packages, ProjectSettings,
+# Luban definitions/data tables, and generated runtime configs tracked.
